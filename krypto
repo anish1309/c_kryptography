@@ -1,0 +1,16 @@
+#!/bin/bash
+echo "there are different way to encrypt/decrypt"
+echo "press 1: for caser technique, press 2: for matrix technique"
+read c
+cd crypto
+case "$c" in
+"1")  
+    gcc caser.c -o caser && ./caser
+    ;;
+"2")
+   gcc matrix.c -o matrix && ./matrix
+    ;;
+*)
+    echo wrong choice
+    ;;
+esac
