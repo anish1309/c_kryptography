@@ -52,7 +52,7 @@ void crypto(char str[],char key[],int strln){
         decrypted[i]='a';
         else 
         decrypted[i]=' ';
-    }printf("decrypted text : %s",decrypted);
+    }printf("decrypted text : %s\n",decrypted);
 }
 
 void key_string(char str[],int str_cnt,char key[],int key_cnt){
