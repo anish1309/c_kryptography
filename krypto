@@ -18,7 +18,7 @@ case "$c" in
         gcc vignere_encrypt.c -o vignere_encrypt && ./vignere_encrypt
     ;;
    "2")
-        gcc vignere_decrypto2.c -o vignere_decrypto2.c && ./vignere_decrypto2.c
+        gcc vignere_decrypto2.c -o vignere_decrypto2 && ./vignere_decrypto2
     ;;
     esac
 esac
