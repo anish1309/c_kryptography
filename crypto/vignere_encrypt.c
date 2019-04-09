@@ -45,7 +45,7 @@ void crypto(int str_math_funct[], int key_math_funct[], int str_cnt){
     }
         
     
-    printf("%s",ct);
+    printf("%s\n",ct);
 }
 
  void math_funct(char str[], char str1[],int str_cnt){
