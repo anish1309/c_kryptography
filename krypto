@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "there are different way to encrypt/decrypt"
-echo "press 1: for caser technique, press 2: for matrix technique"
+echo "press 1: for caser technique, press 2: for matrix technique, press 3: for vignere technique"
 read c
 cd crypto
 case "$c" in
@@ -10,6 +10,21 @@ case "$c" in
 "2")
    gcc matrix.c -o matrix && ./matrix
     ;;
+"3")
+   echo "press 1: to encrypt, press 2: to decrypt"
+   read ch
+   cd crypto
+   case "$ch" in
+   "1")
+        gcc vignere_encrypt.c -o vignere_encrypt && ./vignere_encrypt
+    ;;
+   "2")
+        gcc vignere_decrypto2.c -o vignere_decrypto2.c && ./vignere_decrypto2.c
+    ;;
+    *)
+    echo wrong choice
+    ;;
+    esac
 *)
     echo wrong choice
     ;;
