@@ -20,9 +20,6 @@ case "$c" in
    "2")
         gcc vignere_decrypto2.c -o vignere_decrypto2.c && ./vignere_decrypto2.c
     ;;
-    *)
-    echo wrong choice
-    ;;
     esac
 *)
     echo wrong choice
