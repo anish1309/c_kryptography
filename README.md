@@ -1,4 +1,4 @@
-# c_kryptography
+# C_kryptography
 encrypt and decrypt text
 
 
